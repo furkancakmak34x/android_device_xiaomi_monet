@@ -141,6 +141,8 @@ vendor/lib64/com.qti.feature2.softispsupernight.so
 vendor/lib64/com.qti.feature2.sr.so
 vendor/lib64/com.qti.feature2.stub.so
 vendor/lib64/com.qti.feature2.swmf.so
+vendor/lib64/libmegface.so
+vendor/lib64/libMegviiFacepp-0.5.2.so
 vendor/lib64/libHalSuperSensorServer.so
 vendor/lib64/libMIAIHDRhvx_interface.so
 vendor/lib64/libSNPE.so
@@ -354,6 +356,7 @@ vendor/lib64/camera/components/libdepthmapwrapper.so
 
 # Camera configs
 vendor/camera/model/model_front.dlc
+vendor/etc/camera/megviifacepp_0_5_2_model
 vendor/etc/camera/CFR_para_HD_V01.bin
 vendor/etc/camera/CFR_para_T_5x_V01.bin
 vendor/etc/camera/CFR_para_UW_V01.bin
