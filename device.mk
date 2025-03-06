@@ -18,16 +18,14 @@ TARGET_SCREEN_WIDTH := 1080
 
 # Camera
 PRODUCT_PACKAGES += \
-    libMegviiFacepp-0.5.2 \
-    libmegface
+    libMegviiFacepp-0.5.2
 
 # Fingerprint
 TARGET_HAS_UDFPS := true
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-lineage
+    $(LOCAL_PATH)/overlay
 
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 29
